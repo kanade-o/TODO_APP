@@ -12,7 +12,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: Install dependencies
-        run: npm Install
+        run: npm install
       - name: Run unit tests
         run: npm test
         env:
