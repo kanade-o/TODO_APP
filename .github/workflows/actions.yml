@@ -36,5 +36,5 @@ jobs:
         with:
           context: .
           tags: |
-            ghcr.io/${{ github.repository | toLower }}:latest
-            ghcr.io/${{ github.repository | toLower }}:1.0.0
+            ghcr.io/${{ lower(github.repository) }}:latest
+            ghcr.io/${{ lower(github.repository) }}:1.0.0
