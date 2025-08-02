@@ -36,5 +36,5 @@ jobs:
         with:
           context: .
           tags: |
-            ghcr.io/kanade-o/todo_app:latest
-            ghcr.io/kanade-o/todo_app:1.0.0
+            ghcr.io/kanade85/todo_app:latest
+            ghcr.io/kanade85/todo_app:1.0.0
