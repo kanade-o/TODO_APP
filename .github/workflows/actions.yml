@@ -35,6 +35,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          tatags: |
+          tags: |
             ghcr.io/kanade-o/todo_app:latest
             ghcr.io/kanade-o/todo_app:1.0.0gs: |
